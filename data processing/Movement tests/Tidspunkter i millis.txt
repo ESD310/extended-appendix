@@ -1,0 +1,22 @@
+Tidspunkter i millis
+
+Test1
+start:	11036
+slut:	38989
+
+Test2 ##dropped
+start:	5537
+slut:	19023
+
+Test3
+start:	4675
+slut:	14052
+
+Test4
+start:	7645
+slut:	14610
+
+Test5
+start:	8011
+slut:	13907
+
