@@ -1,0 +1,99 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1.2 (win64) Build 5164865 Thu Sep  5 14:37:11 MDT 2024
+| Date         : Tue Dec  3 10:27:20 2024
+| Host         : AxelsPC running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file design_1_wrapper_control_sets_placed.rpt
+| Design       : design_1_wrapper
+| Device       : xc7a200t
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    21 |
+|    Minimum number of control sets                        |    21 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    36 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    21 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     3 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    17 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             446 |          210 |
+| No           | No                    | Yes                    |               5 |            1 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |             436 |          189 |
+| Yes          | No                    | Yes                    |              29 |           10 |
+| Yes          | Yes                   | No                     |            5864 |         2629 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------------------------+--------------------------------------------------------------------------------------------------+---------------------------------------------------------------+------------------+----------------+--------------+
+|            Clock Signal            |                                           Enable Signal                                          |                        Set/Reset Signal                       | Slice Load Count | Bel Load Count | Bels / Slice |
++------------------------------------+--------------------------------------------------------------------------------------------------+---------------------------------------------------------------+------------------+----------------+--------------+
+|  design_1_i/clk_wiz_0/inst/clk_12  | design_1_i/Correlator_TOF_0/U0/currentStateDebug[3]_i_1_n_0                                      |                                                               |                2 |              4 |         2.00 |
+|  design_1_i/clk_wiz_0/inst/clk_100 |                                                                                                  | CS_IBUF                                                       |                1 |              5 |         5.00 |
+|  design_1_i/clk_wiz_0/inst/clk_100 | design_1_i/SPI_subnode_0/U0/bit_count                                                            | CS_IBUF                                                       |                1 |              5 |         5.00 |
+|  design_1_i/clk_wiz_0/inst/clk_100 |                                                                                                  |                                                               |                3 |              6 |         2.00 |
+|  design_1_i/clk_wiz_0/inst/clk_12  | design_1_i/Correlator_TOF_0/U0/TOF_out[15]_i_1_n_0                                               |                                                               |               10 |             16 |         1.60 |
+|  design_1_i/clk_wiz_0/inst/clk_12  | design_1_i/Correlator_TOF_0/U0/clock_at_max_corr[15]_i_1_n_0                                     |                                                               |                6 |             16 |         2.67 |
+|  design_1_i/clk_wiz_0/inst/clk_12  | design_1_i/Correlator_TOF_0/U0/sample_counter[15]_i_2_n_0                                        | design_1_i/Correlator_TOF_0/U0/sample_counter[15]_i_1_n_0     |                5 |             16 |         3.20 |
+|  design_1_i/clk_wiz_0/inst/clk_12  | design_1_i/Correlator_TOF_0/U0/xcorr_temp[249]_1098                                              | design_1_i/Correlator_TOF_0/U0/xcorr_temp[94]0_i_1_n_0        |                4 |             16 |         4.00 |
+|  design_1_i/clk_wiz_0/inst/clk_12  | design_1_i/AlgM_0/U0/newPos_x[21]_i_2_n_0                                                        |                                                               |                9 |             18 |         2.00 |
+|  design_1_i/clk_wiz_0/inst/clk_100 | design_1_i/SPI_subnode_0/U0/shift_out_0                                                          | CS_IBUF                                                       |                9 |             24 |         2.67 |
+|  design_1_i/clk_wiz_0/inst/clk_12  | design_1_i/AlgM_0/U0/cordic_SqrtRoot/U0/i_synth/i_synth/gen_sqrt.square_root/gen_rdy_int/rdy_int |                                                               |               16 |             24 |         1.50 |
+|  design_1_i/clk_wiz_0/inst/clk_12  | design_1_i/Correlator_TOF_0/U0/max_corr_score[35]_i_2_n_0                                        | design_1_i/Correlator_TOF_0/U0/max_corr_score[35]_i_1_n_0     |                9 |             36 |         4.00 |
+|  design_1_i/clk_wiz_0/inst/clk_12  | design_1_i/Correlator_TOF_0/U0/xcorr_temp[249]_1098                                              | design_1_i/Correlator_TOF_0/U0/xcorr_temp[219]0_i_1_n_0       |               15 |             36 |         2.40 |
+|  design_1_i/clk_wiz_0/inst/clk_12  | design_1_i/Correlator_TOF_0/U0/summize_temp[35]_i_1_n_0                                          |                                                               |                9 |             36 |         4.00 |
+|  design_1_i/clk_wiz_0/inst/clk_12  | design_1_i/AlgM_0/U0/CEP                                                                         |                                                               |               12 |             46 |         3.83 |
+|  design_1_i/clk_wiz_0/inst/clk_12  | design_1_i/AlgM_0/U0/newPos_x[21]_i_2_n_0                                                        | design_1_i/AlgM_0/U0/newPos_x[21]_i_1_n_0                     |               18 |             48 |         2.67 |
+|  design_1_i/clk_wiz_0/inst/clk_12  | design_1_i/Correlator_TOF_0/U0/sample_buffer[499]_1099                                           |                                                               |              125 |            276 |         2.21 |
+|  design_1_i/clk_wiz_0/inst/clk_12  |                                                                                                  |                                                               |              207 |            477 |         2.30 |
+|  design_1_i/clk_wiz_0/inst/clk_12  | design_1_i/Correlator_TOF_0/U0/sample_buffer[499]_1099                                           | design_1_i/Correlator_TOF_0/U0/sample_buffer[71][11]_i_1_n_0  |              571 |           1296 |         2.27 |
+|  design_1_i/clk_wiz_0/inst/clk_12  | design_1_i/Correlator_TOF_0/U0/sample_buffer[499]_1099                                           | design_1_i/Correlator_TOF_0/U0/sample_buffer[215][11]_i_1_n_0 |              847 |           1944 |         2.30 |
+|  design_1_i/clk_wiz_0/inst/clk_12  | design_1_i/Correlator_TOF_0/U0/sample_buffer[499]_1099                                           | design_1_i/Correlator_TOF_0/U0/sample_buffer[90][11]_i_1_n_0  |             1160 |           2472 |         2.13 |
++------------------------------------+--------------------------------------------------------------------------------------------------+---------------------------------------------------------------+------------------+----------------+--------------+
+
+

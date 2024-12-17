@@ -1,0 +1,14 @@
++=============================+==============================+=================================================+
+| Launch Setup Clock          | Launch Hold Clock            | Pin                                             |
++=============================+==============================+=================================================+
+| clk_12_design_1_clk_wiz_0_0 | clk_100_design_1_clk_wiz_0_0 | design_1_i/SPI_subnode_0/U0/shift_out_reg[7]/D  |
+| clk_12_design_1_clk_wiz_0_0 | clk_100_design_1_clk_wiz_0_0 | design_1_i/SPI_subnode_0/U0/shift_out_reg[5]/D  |
+| clk_12_design_1_clk_wiz_0_0 | clk_12_design_1_clk_wiz_0_0  | design_1_i/SPI_subnode_0/U0/shift_out_reg[12]/D |
+| clk_12_design_1_clk_wiz_0_0 | clk_12_design_1_clk_wiz_0_0  | design_1_i/SPI_subnode_0/U0/shift_out_reg[3]/D  |
+| clk_12_design_1_clk_wiz_0_0 | clk_100_design_1_clk_wiz_0_0 | design_1_i/SPI_subnode_0/U0/shift_out_reg[4]/D  |
+| clk_12_design_1_clk_wiz_0_0 | clk_100_design_1_clk_wiz_0_0 | design_1_i/SPI_subnode_0/U0/shift_out_reg[1]/D  |
+| clk_12_design_1_clk_wiz_0_0 | clk_100_design_1_clk_wiz_0_0 | design_1_i/SPI_subnode_0/U0/shift_out_reg[13]/D |
+| clk_12_design_1_clk_wiz_0_0 | clk_100_design_1_clk_wiz_0_0 | design_1_i/SPI_subnode_0/U0/shift_out_reg[17]/D |
+| clk_12_design_1_clk_wiz_0_0 | clk_100_design_1_clk_wiz_0_0 | design_1_i/SPI_subnode_0/U0/shift_out_reg[19]/D |
+| clk_12_design_1_clk_wiz_0_0 | clk_12_design_1_clk_wiz_0_0  | design_1_i/SPI_subnode_0/U0/shift_out_reg[14]/D |
++-----------------------------+------------------------------+-------------------------------------------------+

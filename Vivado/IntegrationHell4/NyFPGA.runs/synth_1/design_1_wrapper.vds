@@ -1,0 +1,315 @@
+#-----------------------------------------------------------
+# Vivado v2024.1.2 (64-bit)
+# SW Build 5164865 on Thu Sep  5 14:37:11 MDT 2024
+# IP Build 5164407 on Fri Sep  6 08:18:11 MDT 2024
+# SharedData Build 5164864 on Thu Sep 05 13:09:09 MDT 2024
+# Start of session at: Tue Dec  3 10:22:58 2024
+# Process ID: 15352
+# Current directory: C:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.runs/synth_1
+# Command line: vivado.exe -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
+# Log file: C:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.runs/synth_1/design_1_wrapper.vds
+# Journal file: C:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.runs/synth_1\vivado.jou
+# Running On        :AxelsPC
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :12th Gen Intel(R) Core(TM) i7-1255U
+# CPU Frequency     :2611 MHz
+# CPU Physical cores:10
+# CPU Logical cores :12
+# Host memory       :16874 MB
+# Swap memory       :9663 MB
+# Total Virtual     :26537 MB
+# Available Virtual :10516 MB
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
+create_project: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 525.090 ; gain = 135.398
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivado/2024.1/data/ip'.
+Command: read_checkpoint -auto_incremental -incremental C:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top design_1_wrapper -part xc7a200tsbg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Device 21-403] Loading part xc7a200tsbg484-1
+INFO: [Device 21-9227] Part: xc7a200tsbg484-1 does not have CEAM library.
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 22608
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1454.371 ; gain = 448.500
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_wrapper' [C:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:34]
+INFO: [Synth 8-3491] module 'design_1' declared at 'c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/synth/design_1.vhd:15' bound to instance 'design_1_i' of component 'design_1' [C:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:54]
+INFO: [Synth 8-638] synthesizing module 'design_1' [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/synth/design_1.vhd:38]
+INFO: [Synth 8-3491] module 'design_1_AlgM_0_0' declared at 'C:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.runs/synth_1/.Xil/Vivado-15352-AxelsPC/realtime/design_1_AlgM_0_0_stub.vhdl:6' bound to instance 'AlgM_0' of component 'design_1_AlgM_0_0' [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/synth/design_1.vhd:212]
+INFO: [Synth 8-638] synthesizing module 'design_1_AlgM_0_0' [C:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.runs/synth_1/.Xil/Vivado-15352-AxelsPC/realtime/design_1_AlgM_0_0_stub.vhdl:26]
+INFO: [Synth 8-3491] module 'design_1_Correlator_TOF_0_0' declared at 'C:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.runs/synth_1/.Xil/Vivado-15352-AxelsPC/realtime/design_1_Correlator_TOF_0_0_stub.vhdl:6' bound to instance 'Correlator_TOF_0' of component 'design_1_Correlator_TOF_0_0' [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/synth/design_1.vhd:229]
+INFO: [Synth 8-638] synthesizing module 'design_1_Correlator_TOF_0_0' [C:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.runs/synth_1/.Xil/Vivado-15352-AxelsPC/realtime/design_1_Correlator_TOF_0_0_stub.vhdl:20]
+INFO: [Synth 8-3491] module 'design_1_PosUpdateLatch_0_0' declared at 'C:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.runs/synth_1/.Xil/Vivado-15352-AxelsPC/realtime/design_1_PosUpdateLatch_0_0_stub.vhdl:6' bound to instance 'PosUpdateLatch_0' of component 'design_1_PosUpdateLatch_0_0' [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/synth/design_1.vhd:240]
+INFO: [Synth 8-638] synthesizing module 'design_1_PosUpdateLatch_0_0' [C:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.runs/synth_1/.Xil/Vivado-15352-AxelsPC/realtime/design_1_PosUpdateLatch_0_0_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'design_1_SPI_subnode_0_0' declared at 'C:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.runs/synth_1/.Xil/Vivado-15352-AxelsPC/realtime/design_1_SPI_subnode_0_0_stub.vhdl:6' bound to instance 'SPI_subnode_0' of component 'design_1_SPI_subnode_0_0' [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/synth/design_1.vhd:247]
+INFO: [Synth 8-638] synthesizing module 'design_1_SPI_subnode_0_0' [C:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.runs/synth_1/.Xil/Vivado-15352-AxelsPC/realtime/design_1_SPI_subnode_0_0_stub.vhdl:20]
+INFO: [Synth 8-3491] module 'design_1_Sample2TOF_0_0' declared at 'C:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.runs/synth_1/.Xil/Vivado-15352-AxelsPC/realtime/design_1_Sample2TOF_0_0_stub.vhdl:6' bound to instance 'Sample2TOF_0' of component 'design_1_Sample2TOF_0_0' [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/synth/design_1.vhd:258]
+INFO: [Synth 8-638] synthesizing module 'design_1_Sample2TOF_0_0' [C:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.runs/synth_1/.Xil/Vivado-15352-AxelsPC/realtime/design_1_Sample2TOF_0_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'design_1_Shifter_0_0' declared at 'C:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.runs/synth_1/.Xil/Vivado-15352-AxelsPC/realtime/design_1_Shifter_0_0_stub.vhdl:6' bound to instance 'Shifter_0' of component 'design_1_Shifter_0_0' [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/synth/design_1.vhd:263]
+INFO: [Synth 8-638] synthesizing module 'design_1_Shifter_0_0' [C:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.runs/synth_1/.Xil/Vivado-15352-AxelsPC/realtime/design_1_Shifter_0_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'design_1_clk_wiz_0_0' declared at 'C:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.runs/synth_1/.Xil/Vivado-15352-AxelsPC/realtime/design_1_clk_wiz_0_0_stub.vhdl:6' bound to instance 'clk_wiz_0' of component 'design_1_clk_wiz_0_0' [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/synth/design_1.vhd:268]
+INFO: [Synth 8-638] synthesizing module 'design_1_clk_wiz_0_0' [C:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.runs/synth_1/.Xil/Vivado-15352-AxelsPC/realtime/design_1_clk_wiz_0_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'design_1_sat_sel_0_0' declared at 'C:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.runs/synth_1/.Xil/Vivado-15352-AxelsPC/realtime/design_1_sat_sel_0_0_stub.vhdl:6' bound to instance 'sat_sel_0' of component 'design_1_sat_sel_0_0' [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/synth/design_1.vhd:274]
+INFO: [Synth 8-638] synthesizing module 'design_1_sat_sel_0_0' [C:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.runs/synth_1/.Xil/Vivado-15352-AxelsPC/realtime/design_1_sat_sel_0_0_stub.vhdl:17]
+INFO: [Synth 8-3491] module 'design_1_xadc_wiz_0_0' declared at 'C:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.runs/synth_1/.Xil/Vivado-15352-AxelsPC/realtime/design_1_xadc_wiz_0_0_stub.vhdl:6' bound to instance 'xadc_wiz_0' of component 'design_1_xadc_wiz_0_0' [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/synth/design_1.vhd:282]
+INFO: [Synth 8-638] synthesizing module 'design_1_xadc_wiz_0_0' [C:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.runs/synth_1/.Xil/Vivado-15352-AxelsPC/realtime/design_1_xadc_wiz_0_0_stub.vhdl:28]
+INFO: [Synth 8-3491] module 'design_1_xlconstant_0_0' declared at 'c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/synth/design_1_xlconstant_0_0.v:53' bound to instance 'xlconstant_0' of component 'design_1_xlconstant_0_0' [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/synth/design_1.vhd:301]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlconstant_0_0' [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/synth/design_1_xlconstant_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_9_xlconstant' [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/ipshared/e2d2/hdl/xlconstant_v1_1_vl_rfs.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_9_xlconstant' (0#1) [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/ipshared/e2d2/hdl/xlconstant_v1_1_vl_rfs.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlconstant_0_0' (0#1) [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/ip/design_1_xlconstant_0_0/synth/design_1_xlconstant_0_0.v:53]
+INFO: [Synth 8-3491] module 'design_1_xlconstant_1_0' declared at 'c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/ip/design_1_xlconstant_1_0/synth/design_1_xlconstant_1_0.v:53' bound to instance 'xlconstant_1' of component 'design_1_xlconstant_1_0' [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/synth/design_1.vhd:305]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlconstant_1_0' [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/ip/design_1_xlconstant_1_0/synth/design_1_xlconstant_1_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_9_xlconstant__parameterized0' [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/ipshared/e2d2/hdl/xlconstant_v1_1_vl_rfs.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_9_xlconstant__parameterized0' (0#1) [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/ipshared/e2d2/hdl/xlconstant_v1_1_vl_rfs.v:68]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlconstant_1_0' (0#1) [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/ip/design_1_xlconstant_1_0/synth/design_1_xlconstant_1_0.v:53]
+INFO: [Synth 8-3491] module 'design_1_xpm_cdc_gen_0_0' declared at 'C:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.runs/synth_1/.Xil/Vivado-15352-AxelsPC/realtime/design_1_xpm_cdc_gen_0_0_stub.vhdl:6' bound to instance 'xpm_cdc_gen_0' of component 'design_1_xpm_cdc_gen_0_0' [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/synth/design_1.vhd:309]
+INFO: [Synth 8-638] synthesizing module 'design_1_xpm_cdc_gen_0_0' [C:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.runs/synth_1/.Xil/Vivado-15352-AxelsPC/realtime/design_1_xpm_cdc_gen_0_0_stub.vhdl:16]
+INFO: [Synth 8-256] done synthesizing module 'design_1' (0#1) [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/synth/design_1.vhd:38]
+INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (0#1) [C:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:34]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1565.977 ; gain = 560.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1565.977 ; gain = 560.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1565.977 ; gain = 560.105
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1565.977 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/ip/design_1_xadc_wiz_0_0/design_1_xadc_wiz_0_0/design_1_xadc_wiz_0_0_in_context.xdc] for cell 'design_1_i/xadc_wiz_0'
+Finished Parsing XDC File [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/ip/design_1_xadc_wiz_0_0/design_1_xadc_wiz_0_0/design_1_xadc_wiz_0_0_in_context.xdc] for cell 'design_1_i/xadc_wiz_0'
+Parsing XDC File [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/ip/design_1_Shifter_0_0/design_1_Shifter_0_0/design_1_Shifter_0_0_in_context.xdc] for cell 'design_1_i/Shifter_0'
+Finished Parsing XDC File [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/ip/design_1_Shifter_0_0/design_1_Shifter_0_0/design_1_Shifter_0_0_in_context.xdc] for cell 'design_1_i/Shifter_0'
+Parsing XDC File [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_in_context.xdc] for cell 'design_1_i/clk_wiz_0'
+Finished Parsing XDC File [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_in_context.xdc] for cell 'design_1_i/clk_wiz_0'
+Parsing XDC File [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/ip/design_1_xpm_cdc_gen_0_0/design_1_xpm_cdc_gen_0_0/design_1_xpm_cdc_gen_0_0_in_context.xdc] for cell 'design_1_i/xpm_cdc_gen_0'
+Finished Parsing XDC File [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/ip/design_1_xpm_cdc_gen_0_0/design_1_xpm_cdc_gen_0_0/design_1_xpm_cdc_gen_0_0_in_context.xdc] for cell 'design_1_i/xpm_cdc_gen_0'
+Parsing XDC File [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/ip/design_1_Correlator_TOF_0_0/design_1_Correlator_TOF_0_0/design_1_Correlator_TOF_0_0_in_context.xdc] for cell 'design_1_i/Correlator_TOF_0'
+Finished Parsing XDC File [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/ip/design_1_Correlator_TOF_0_0/design_1_Correlator_TOF_0_0/design_1_Correlator_TOF_0_0_in_context.xdc] for cell 'design_1_i/Correlator_TOF_0'
+Parsing XDC File [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/ip/design_1_AlgM_0_0/design_1_AlgM_0_0/design_1_AlgM_0_0_in_context.xdc] for cell 'design_1_i/AlgM_0'
+Finished Parsing XDC File [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/ip/design_1_AlgM_0_0/design_1_AlgM_0_0/design_1_AlgM_0_0_in_context.xdc] for cell 'design_1_i/AlgM_0'
+Parsing XDC File [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/ip/design_1_sat_sel_0_0/design_1_sat_sel_0_0/design_1_sat_sel_0_0_in_context.xdc] for cell 'design_1_i/sat_sel_0'
+Finished Parsing XDC File [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/ip/design_1_sat_sel_0_0/design_1_sat_sel_0_0/design_1_sat_sel_0_0_in_context.xdc] for cell 'design_1_i/sat_sel_0'
+Parsing XDC File [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/ip/design_1_SPI_subnode_0_0/design_1_SPI_subnode_0_0/design_1_SPI_subnode_0_0_in_context.xdc] for cell 'design_1_i/SPI_subnode_0'
+Finished Parsing XDC File [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/ip/design_1_SPI_subnode_0_0/design_1_SPI_subnode_0_0/design_1_SPI_subnode_0_0_in_context.xdc] for cell 'design_1_i/SPI_subnode_0'
+Parsing XDC File [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/ip/design_1_Sample2TOF_0_0/design_1_Sample2TOF_0_0/design_1_Sample2TOF_0_0_in_context.xdc] for cell 'design_1_i/Sample2TOF_0'
+Finished Parsing XDC File [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/ip/design_1_Sample2TOF_0_0/design_1_Sample2TOF_0_0/design_1_Sample2TOF_0_0_in_context.xdc] for cell 'design_1_i/Sample2TOF_0'
+Parsing XDC File [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/ip/design_1_PosUpdateLatch_0_0/design_1_PosUpdateLatch_0_0/design_1_PosUpdateLatch_0_0_in_context.xdc] for cell 'design_1_i/PosUpdateLatch_0'
+Finished Parsing XDC File [c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/ip/design_1_PosUpdateLatch_0_0/design_1_PosUpdateLatch_0_0/design_1_PosUpdateLatch_0_0_in_context.xdc] for cell 'design_1_i/PosUpdateLatch_0'
+Parsing XDC File [C:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.srcs/constrs_1/new/Constr.xdc]
+Finished Parsing XDC File [C:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.srcs/constrs_1/new/Constr.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.srcs/constrs_1/new/Constr.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1565.977 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1565.977 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:18 . Memory (MB): peak = 1565.977 ; gain = 560.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tsbg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:18 . Memory (MB): peak = 1565.977 ; gain = 560.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk_in1. (constraint file  c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_in_context.xdc, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk_in1. (constraint file  c:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_in_context.xdc, line 5).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/xadc_wiz_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/xlconstant_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/Shifter_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/clk_wiz_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/xpm_cdc_gen_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/Correlator_TOF_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/xlconstant_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/AlgM_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/sat_sel_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/SPI_subnode_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/Sample2TOF_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/PosUpdateLatch_0. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:03 ; elapsed = 00:00:18 . Memory (MB): peak = 1565.977 ; gain = 560.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:18 . Memory (MB): peak = 1565.977 ; gain = 560.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:03 ; elapsed = 00:00:20 . Memory (MB): peak = 1565.977 ; gain = 560.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:04 ; elapsed = 00:00:28 . Memory (MB): peak = 1565.977 ; gain = 560.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:04 ; elapsed = 00:00:28 . Memory (MB): peak = 1565.977 ; gain = 560.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:04 ; elapsed = 00:00:28 . Memory (MB): peak = 1565.977 ; gain = 560.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:05 ; elapsed = 00:00:34 . Memory (MB): peak = 1565.977 ; gain = 560.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:05 ; elapsed = 00:00:34 . Memory (MB): peak = 1565.977 ; gain = 560.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:05 ; elapsed = 00:00:34 . Memory (MB): peak = 1565.977 ; gain = 560.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:05 ; elapsed = 00:00:34 . Memory (MB): peak = 1565.977 ; gain = 560.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:34 . Memory (MB): peak = 1565.977 ; gain = 560.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:05 ; elapsed = 00:00:34 . Memory (MB): peak = 1565.977 ; gain = 560.105
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+----------------------------+----------+
+|      |BlackBox name               |Instances |
++------+----------------------------+----------+
+|1     |design_1_AlgM_0_0           |         1|
+|2     |design_1_Correlator_TOF_0_0 |         1|
+|3     |design_1_PosUpdateLatch_0_0 |         1|
+|4     |design_1_SPI_subnode_0_0    |         1|
+|5     |design_1_Sample2TOF_0_0     |         1|
+|6     |design_1_Shifter_0_0        |         1|
+|7     |design_1_clk_wiz_0_0        |         1|
+|8     |design_1_sat_sel_0_0        |         1|
+|9     |design_1_xadc_wiz_0_0       |         1|
+|10    |design_1_xpm_cdc_gen_0_0    |         1|
++------+----------------------------+----------+
+
+Report Cell Usage: 
++------+---------------------------------+------+
+|      |Cell                             |Count |
++------+---------------------------------+------+
+|1     |design_1_AlgM_0_0_bbox           |     1|
+|2     |design_1_Correlator_TOF_0_0_bbox |     1|
+|3     |design_1_PosUpdateLatch_0_0_bbox |     1|
+|4     |design_1_SPI_subnode_0_0_bbox    |     1|
+|5     |design_1_Sample2TOF_0_0_bbox     |     1|
+|6     |design_1_Shifter_0_0_bbox        |     1|
+|7     |design_1_clk_wiz_0_0_bbox        |     1|
+|8     |design_1_sat_sel_0_0_bbox        |     1|
+|9     |design_1_xadc_wiz_0_0_bbox       |     1|
+|10    |design_1_xpm_cdc_gen_0_0_bbox    |     1|
+|11    |IBUF                             |     8|
+|12    |OBUF                             |     9|
++------+---------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:05 ; elapsed = 00:00:34 . Memory (MB): peak = 1565.977 ; gain = 560.105
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:03 ; elapsed = 00:00:31 . Memory (MB): peak = 1565.977 ; gain = 560.105
+Synthesis Optimization Complete : Time (s): cpu = 00:00:05 ; elapsed = 00:00:34 . Memory (MB): peak = 1565.977 ; gain = 560.105
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1565.977 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1565.977 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 7c6ed6da
+INFO: [Common 17-83] Releasing license: Synthesis
+58 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:42 . Memory (MB): peak = 1565.977 ; gain = 1014.977
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1565.977 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.runs/synth_1/design_1_wrapper.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Dec  3 10:23:55 2024...

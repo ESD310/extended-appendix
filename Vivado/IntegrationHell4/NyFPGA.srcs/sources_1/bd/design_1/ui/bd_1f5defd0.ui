@@ -1,0 +1,68 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.698238",
+   "Default View_TopLeft":"1217,-53",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.7.1 2023-07-26 3bc4126617 VDI=43 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port Vaux1 -pg 1 -lvl 0 -x -230 -y 180 -defaultsOSRD
+preplace port port-id_clk_in1 -pg 1 -lvl 0 -x -230 -y 340 -defaultsOSRD
+preplace port port-id_start -pg 1 -lvl 0 -x -230 -y -120 -defaultsOSRD
+preplace port port-id_TOF_ready -pg 1 -lvl 10 -x 2740 -y -160 -defaultsOSRD
+preplace port port-id_dataValidOut -pg 1 -lvl 10 -x 2740 -y -190 -defaultsOSRD
+preplace port port-id_reset -pg 1 -lvl 0 -x -230 -y -220 -defaultsOSRD
+preplace port port-id_CS -pg 1 -lvl 0 -x -230 -y -250 -defaultsOSRD
+preplace port port-id_SCK -pg 1 -lvl 0 -x -230 -y -280 -defaultsOSRD
+preplace port port-id_MISO -pg 1 -lvl 10 -x 2740 -y -280 -defaultsOSRD
+preplace port port-id_dest_pulse -pg 1 -lvl 10 -x 2740 -y -310 -defaultsOSRD
+preplace port port-id_PosUpdateFlag -pg 1 -lvl 10 -x 2740 -y -340 -defaultsOSRD
+preplace portBus address -pg 1 -lvl 0 -x -230 -y -190 -defaultsOSRD
+preplace portBus currentStateDebug -pg 1 -lvl 10 -x 2740 -y -370 -defaultsOSRD
+preplace inst xadc_wiz_0 -pg 1 -lvl 3 -x 630 -y 110 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 1 -x 30 -y -10 -defaultsOSRD
+preplace inst Shifter_0 -pg 1 -lvl 3 -x 630 -y -80 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 2 -x 260 -y 340 -defaultsOSRD
+preplace inst xpm_cdc_gen_0 -pg 1 -lvl 4 -x 910 -y 340 -defaultsOSRD
+preplace inst Correlator_TOF_0 -pg 1 -lvl 5 -x 1250 -y 110 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 4 -x 910 -y 90 -defaultsOSRD
+preplace inst AlgM_0 -pg 1 -lvl 7 -x 1970 -y 200 -defaultsOSRD
+preplace inst sat_sel_0 -pg 1 -lvl 6 -x 1630 -y 220 -defaultsOSRD
+preplace inst SPI_subnode_0 -pg 1 -lvl 9 -x 2540 -y 200 -defaultsOSRD
+preplace inst Sample2TOF_0 -pg 1 -lvl 6 -x 1630 -y 50 -defaultsOSRD
+preplace inst PosUpdateLatch_0 -pg 1 -lvl 8 -x 2280 -y -30 -defaultsOSRD
+preplace netloc AlgM_0_dataValidOut 1 7 3 2120 -190 NJ -190 N
+preplace netloc AlgM_0_newPos_x 1 6 3 1820 350 2140 200 N
+preplace netloc AlgM_0_newPos_y 1 6 3 1810 360 2130 220 N
+preplace netloc AlgM_0_newPos_z 1 6 3 1790 370 2120 240 N
+preplace netloc CS_1 1 0 9 NJ -250 NJ -250 NJ -250 NJ -250 NJ -250 NJ -250 NJ -250 2140 140 N
+preplace netloc Correlator_TOF_0_TOF_out 1 5 1 1450 50n
+preplace netloc Correlator_TOF_0_TOF_ready 1 5 5 N 110 1800 -160 N -160 N -160 N
+preplace netloc Correlator_TOF_0_currentStateDebug 1 5 5 1440 -370 NJ -370 NJ -370 NJ -370 NJ
+preplace netloc PosUpdateLatch_0_posUpdateFlag 1 8 2 2420 -340 N
+preplace netloc SCK_1 1 0 9 NJ -280 NJ -280 NJ -280 NJ -280 NJ -280 NJ -280 NJ -280 NJ -280 2430
+preplace netloc SPI_subnode_0_MISO 1 9 1 2650 -280n
+preplace netloc Sample2TOF_0_TOF_out 1 6 3 1790 50 N 50 2420
+preplace netloc Shifter_0_d_out 1 3 2 NJ -80 1020
+preplace netloc address_1 1 0 6 NJ -190 NJ -190 NJ -190 NJ -190 NJ -190 1430
+preplace netloc clk_in1_1 1 0 2 NJ 340 N
+preplace netloc clk_wiz_0_clk_12 1 2 6 N 350 810J 30 1070J 10 1480 -10 1820 -50 N
+preplace netloc clk_wiz_0_clk_100 1 2 7 480J 240 800 -20 N -20 N -20 N -20 2130 180 N
+preplace netloc reset_1 1 0 7 NJ -220 NJ -220 NJ -220 NJ -220 NJ -220 NJ -220 1810
+preplace netloc sat_sel_0_sat_pos_x 1 6 1 1810 190n
+preplace netloc sat_sel_0_sat_pos_y 1 6 1 1780 210n
+preplace netloc sat_sel_0_sat_pos_z 1 6 1 1810 230n
+preplace netloc start_1 1 0 5 NJ -120 NJ -120 370J -140 NJ -140 1060
+preplace netloc xadc_wiz_0_do_out 1 2 1 480 -80n
+preplace netloc xadc_wiz_0_drdy_out 1 2 2 490 360 N
+preplace netloc xadc_wiz_0_eoc_out 1 2 2 490 -20 770
+preplace netloc xlconstant_0_dout 1 1 2 N -10 350
+preplace netloc xlconstant_1_dout 1 4 1 1010 90n
+preplace netloc xpm_cdc_gen_0_dest_pulse 1 4 6 1050 -310 N -310 N -310 N -310 N -310 N
+preplace netloc Vaux1_1 1 0 3 NJ 180 NJ 180 350
+levelinfo -pg 1 -230 30 260 630 910 1250 1630 1970 2280 2540 2740
+pagesize -pg 1 -db -bbox -sgen -370 -500 2950 430
+"
+}
+{
+   "da_clkrst_cnt":"1"
+}

@@ -1,0 +1,32 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.02374",
+   "Default View_TopLeft":"-384,-70",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.7.1 2023-07-26 3bc4126617 VDI=43 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port port-id_dataValidOut -pg 1 -lvl 2 -x 520 -y 90 -defaultsOSRD
+preplace port port-id_clk_alg -pg 1 -lvl 0 -x -250 -y -20 -defaultsOSRD
+preplace port port-id_ToFDataReady -pg 1 -lvl 0 -x -250 -y 40 -defaultsOSRD
+preplace port port-id_reset -pg 1 -lvl 0 -x -250 -y 10 -defaultsOSRD
+preplace portBus ToF -pg 1 -lvl 0 -x -250 -y 70 -defaultsOSRD
+preplace portBus satPos_x -pg 1 -lvl 0 -x -250 -y 100 -defaultsOSRD
+preplace portBus satPos_y -pg 1 -lvl 0 -x -250 -y -50 -defaultsOSRD
+preplace portBus satPos_z -pg 1 -lvl 0 -x -250 -y -80 -defaultsOSRD
+preplace inst AlgM_0 -pg 1 -lvl 1 -x 320 -y 110 -defaultsOSRD
+preplace netloc AlgM_0_newPos_x 1 0 2 150 -60 470
+preplace netloc AlgM_0_newPos_y 1 0 2 160 -50 480
+preplace netloc AlgM_0_newPos_z 1 0 2 170 -40 490
+preplace netloc AlgM_0_dataValidOut 1 1 1 500 80n
+preplace netloc clk_alg_1 1 0 1 -190 -20n
+preplace netloc ToFDataReady_1 1 0 1 -230 40n
+preplace netloc ToF_1 1 0 1 -230J 70n
+preplace netloc reset_1 1 0 1 -200J 10n
+preplace netloc satPos_x_1 1 0 1 NJ 100
+preplace netloc satPos_y_1 1 0 1 -220 -50n
+preplace netloc satPos_z_1 1 0 1 -210 -80n
+levelinfo -pg 1 -250 320 520
+pagesize -pg 1 -db -bbox -sgen -390 -100 660 400
+"
+}
+

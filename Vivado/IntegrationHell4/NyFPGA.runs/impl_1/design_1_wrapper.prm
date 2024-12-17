@@ -1,0 +1,14 @@
+===================================
+Configuration Memory information
+===================================
+File Format        BIN
+Interface          SPIX4
+Size               32M
+Start Address      0x00000000
+End Address        0x01FFFFFF
+Checksum           0xBB605E3E
+Fill Value         0xFF
+
+Addr1         Addr2         Date                    File(s)                                                                              Checksum
+0x00000000    0x0045BE9B    Dec  3 10:32:14 2024    C:/Users/axelo/OneDrive/Skrivebord/NyFPGA/NyFPGA.runs/impl_1/design_1_wrapper.bit    0x02D93BA2
+File Checksum Total                                                                                                                      0x02D93BA2
