@@ -1,0 +1,48 @@
+---
+title: "Analyse.rmd"
+author: "Maltheren"
+date: "2024-12-06"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+require(ggformula)
+library(mosaic)
+
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+delays = read.csv("UT2Nano.csv",header = TRUE)
+
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+gf_histogram(~Time, data=delays, bins=10, xlab="Obseved delays [us]")
+fav_stats(delays$Time)
+gf_boxplot(~Time, data=delays)
+result <- t.test(delays$Time)
+print(result$conf.int)
+
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+```{r}
+S_1 = 30.63973
+S_2 = 51.14
+f_obs = (S_1^2)/(S_2^2)
+
+pdist("f", f_obs, df1=99, df2=776)
+```
