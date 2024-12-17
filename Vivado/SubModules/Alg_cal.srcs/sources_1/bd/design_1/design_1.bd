@@ -1,0 +1,218 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xE25ACCE09EAEC3B0",
+      "device": "xc7a35tcpg236-1",
+      "gen_directory": "../../../../Alg_cal.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2024.1.2"
+    },
+    "design_tree": {
+      "AlgM_0": ""
+    },
+    "ports": {
+      "dataValidOut": {
+        "direction": "O"
+      },
+      "clk_alg": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "FREQ_HZ": {
+            "value": "12000000"
+          }
+        }
+      },
+      "ToFDataReady": {
+        "direction": "I"
+      },
+      "ToF": {
+        "direction": "I",
+        "left": "12",
+        "right": "0"
+      },
+      "reset": {
+        "type": "rst",
+        "direction": "I"
+      },
+      "satPos_x": {
+        "direction": "I",
+        "left": "20",
+        "right": "0"
+      },
+      "satPos_y": {
+        "direction": "I",
+        "left": "20",
+        "right": "0"
+      },
+      "satPos_z": {
+        "direction": "I",
+        "left": "20",
+        "right": "0"
+      }
+    },
+    "components": {
+      "AlgM_0": {
+        "vlnv": "xilinx.com:module_ref:AlgM:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_1_AlgM_0_0",
+        "xci_path": "ip\\design_1_AlgM_0_0\\design_1_AlgM_0_0.xci",
+        "inst_hier_path": "AlgM_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "AlgM",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "reset": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "clk_alg": {
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "12000000",
+                "value_src": "user_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "default_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "design_1_clk_alg",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "ToFDataReady": {
+            "direction": "I"
+          },
+          "dataValidOut": {
+            "direction": "O"
+          },
+          "ToF": {
+            "direction": "I",
+            "left": "12",
+            "right": "0"
+          },
+          "satPos_x": {
+            "direction": "I",
+            "left": "20",
+            "right": "0"
+          },
+          "satPos_y": {
+            "direction": "I",
+            "left": "20",
+            "right": "0"
+          },
+          "satPos_z": {
+            "direction": "I",
+            "left": "20",
+            "right": "0"
+          },
+          "lastPos_x": {
+            "direction": "I",
+            "left": "20",
+            "right": "0"
+          },
+          "lastPos_y": {
+            "direction": "I",
+            "left": "20",
+            "right": "0"
+          },
+          "lastPos_z": {
+            "direction": "I",
+            "left": "20",
+            "right": "0"
+          },
+          "newPos_x": {
+            "direction": "O",
+            "left": "20",
+            "right": "0"
+          },
+          "newPos_y": {
+            "direction": "O",
+            "left": "20",
+            "right": "0"
+          },
+          "newPos_z": {
+            "direction": "O",
+            "left": "20",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "AlgM_0_dataValidOut": {
+        "ports": [
+          "AlgM_0/dataValidOut",
+          "dataValidOut"
+        ]
+      },
+      "AlgM_0_newPos_x": {
+        "ports": [
+          "AlgM_0/newPos_x",
+          "AlgM_0/lastPos_x"
+        ]
+      },
+      "AlgM_0_newPos_y": {
+        "ports": [
+          "AlgM_0/newPos_y",
+          "AlgM_0/lastPos_y"
+        ]
+      },
+      "AlgM_0_newPos_z": {
+        "ports": [
+          "AlgM_0/newPos_z",
+          "AlgM_0/lastPos_z"
+        ]
+      },
+      "ToFDataReady_1": {
+        "ports": [
+          "ToFDataReady",
+          "AlgM_0/ToFDataReady"
+        ]
+      },
+      "ToF_1": {
+        "ports": [
+          "ToF",
+          "AlgM_0/ToF"
+        ]
+      },
+      "clk_alg_1": {
+        "ports": [
+          "clk_alg",
+          "AlgM_0/clk_alg"
+        ]
+      },
+      "reset_1": {
+        "ports": [
+          "reset",
+          "AlgM_0/reset"
+        ]
+      },
+      "satPos_x_1": {
+        "ports": [
+          "satPos_x",
+          "AlgM_0/satPos_x"
+        ]
+      },
+      "satPos_y_1": {
+        "ports": [
+          "satPos_y",
+          "AlgM_0/satPos_y"
+        ]
+      },
+      "satPos_z_1": {
+        "ports": [
+          "satPos_z",
+          "AlgM_0/satPos_z"
+        ]
+      }
+    }
+  }
+}
