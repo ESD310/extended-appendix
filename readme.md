@@ -3,7 +3,8 @@
 
 - Vivado
     - Vivado project
-    - Source
+    - SubModule Sources
+        -To find the VHDL source files go to /SubModules/new
 - Embedded firmware
     - Satellite firmware
     - Target firmware
