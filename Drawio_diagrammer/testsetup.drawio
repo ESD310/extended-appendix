@@ -1,0 +1,468 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:132.0) Gecko/20100101 Firefox/132.0" version="25.0.1" pages="3">
+  <diagram name="Page-1" id="CdusI58mAxjN6f_pgZa9">
+    <mxGraphModel dx="819" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZNtZd5RjxQq9t6S8rGK3-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="140" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNtZd5RjxQq9t6S8rGK3-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="140" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNtZd5RjxQq9t6S8rGK3-4" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;PC&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="405" y="140" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNtZd5RjxQq9t6S8rGK3-5" value="&lt;div&gt;Nucleo&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNtZd5RjxQq9t6S8rGK3-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="140" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNtZd5RjxQq9t6S8rGK3-6" value="FPGA" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="830" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNtZd5RjxQq9t6S8rGK3-8" value="&lt;div&gt;Test sample&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNtZd5RjxQq9t6S8rGK3-14" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1010" y="190" width="80" height="26.18" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNtZd5RjxQq9t6S8rGK3-9" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.waveforms.sine_wave;" vertex="1" parent="ZNtZd5RjxQq9t6S8rGK3-14">
+          <mxGeometry width="20" height="26.18" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNtZd5RjxQq9t6S8rGK3-11" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.waveforms.sine_wave;" vertex="1" parent="ZNtZd5RjxQq9t6S8rGK3-14">
+          <mxGeometry x="20" width="20" height="26.18" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNtZd5RjxQq9t6S8rGK3-12" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.waveforms.sine_wave;" vertex="1" parent="ZNtZd5RjxQq9t6S8rGK3-14">
+          <mxGeometry x="40" width="20" height="26.18" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNtZd5RjxQq9t6S8rGK3-13" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.waveforms.sine_wave;" vertex="1" parent="ZNtZd5RjxQq9t6S8rGK3-14">
+          <mxGeometry x="60" width="20" height="26.18" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNtZd5RjxQq9t6S8rGK3-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNtZd5RjxQq9t6S8rGK3-23" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="383" y="188" width="110" height="26.18" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNtZd5RjxQq9t6S8rGK3-16" value="" style="group" vertex="1" connectable="0" parent="ZNtZd5RjxQq9t6S8rGK3-23">
+          <mxGeometry x="48.125" width="41.25" height="26.179999999999993" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNtZd5RjxQq9t6S8rGK3-17" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.waveforms.sine_wave;" vertex="1" parent="ZNtZd5RjxQq9t6S8rGK3-16">
+          <mxGeometry width="10.3125" height="26.179999999999993" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNtZd5RjxQq9t6S8rGK3-18" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.waveforms.sine_wave;" vertex="1" parent="ZNtZd5RjxQq9t6S8rGK3-16">
+          <mxGeometry x="10.3125" width="10.3125" height="26.179999999999993" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNtZd5RjxQq9t6S8rGK3-19" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.waveforms.sine_wave;" vertex="1" parent="ZNtZd5RjxQq9t6S8rGK3-16">
+          <mxGeometry x="20.625" width="10.3125" height="26.179999999999993" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNtZd5RjxQq9t6S8rGK3-20" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.waveforms.sine_wave;" vertex="1" parent="ZNtZd5RjxQq9t6S8rGK3-16">
+          <mxGeometry x="30.9375" width="10.3125" height="26.179999999999993" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNtZd5RjxQq9t6S8rGK3-21" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="ZNtZd5RjxQq9t6S8rGK3-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="13.999999999999996" as="sourcePoint" />
+            <mxPoint x="48.125" y="13.999999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZNtZd5RjxQq9t6S8rGK3-22" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="ZNtZd5RjxQq9t6S8rGK3-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="89.375" y="13.999999999999996" as="sourcePoint" />
+            <mxPoint x="110" y="13.999999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZNtZd5RjxQq9t6S8rGK3-24" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="200.85" as="sourcePoint" />
+            <mxPoint x="590" y="200.85" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZNtZd5RjxQq9t6S8rGK3-26" value="UART" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZNtZd5RjxQq9t6S8rGK3-24">
+          <mxGeometry x="-0.3048" y="2" relative="1" as="geometry">
+            <mxPoint x="9" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZNtZd5RjxQq9t6S8rGK3-27" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="199.76" as="sourcePoint" />
+            <mxPoint x="800" y="199.76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZNtZd5RjxQq9t6S8rGK3-28" value="Parrallel" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZNtZd5RjxQq9t6S8rGK3-27">
+          <mxGeometry x="-0.3048" y="2" relative="1" as="geometry">
+            <mxPoint x="9" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZNtZd5RjxQq9t6S8rGK3-29" value="Krydskorrelation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="171.09" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNtZd5RjxQq9t6S8rGK3-30" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="576" y="250" as="sourcePoint" />
+            <mxPoint x="493" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZNtZd5RjxQq9t6S8rGK3-31" value="UART" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZNtZd5RjxQq9t6S8rGK3-30">
+          <mxGeometry x="-0.3048" y="2" relative="1" as="geometry">
+            <mxPoint x="-7" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZNtZd5RjxQq9t6S8rGK3-32" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZNtZd5RjxQq9t6S8rGK3-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="783" y="250" as="sourcePoint" />
+            <mxPoint x="700" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="860" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZNtZd5RjxQq9t6S8rGK3-33" value="Parallel" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZNtZd5RjxQq9t6S8rGK3-32">
+          <mxGeometry x="-0.3048" y="2" relative="1" as="geometry">
+            <mxPoint x="-67" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZNtZd5RjxQq9t6S8rGK3-34" value="Noget kode til lige at pakke og udpakke" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="171.09" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNtZd5RjxQq9t6S8rGK3-35" value="Som std_logic_vector" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="231.09" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNtZd5RjxQq9t6S8rGK3-36" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZNtZd5RjxQq9t6S8rGK3-8" target="ZNtZd5RjxQq9t6S8rGK3-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="260" as="sourcePoint" />
+            <mxPoint x="880" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZNtZd5RjxQq9t6S8rGK3-37" value="Sej graf" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="230" width="103" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="DDHXXschYztLQ74YpJTQ" name="Side-2">
+    <mxGraphModel dx="1595" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="33DunCwNwJLF14FO--hP-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Computer modern;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fvsalvino%2Fcomputer-modern%40main%2Ffonts%2Ftypewriter.css;" edge="1" parent="1" source="33DunCwNwJLF14FO--hP-2" target="33DunCwNwJLF14FO--hP-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="33DunCwNwJLF14FO--hP-2" value="&lt;div&gt;Satellite&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Computer modern;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fvsalvino%2Fcomputer-modern%40main%2Ffonts%2Ftypewriter.css;" vertex="1" parent="1">
+          <mxGeometry x="40" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="33DunCwNwJLF14FO--hP-3" value="&lt;div&gt;Atmega328p&lt;/div&gt;&lt;div&gt;Co-processor&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Computer modern;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fvsalvino%2Fcomputer-modern%40main%2Ffonts%2Ftypewriter.css;" vertex="1" parent="1">
+          <mxGeometry x="520" y="178.52" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="33DunCwNwJLF14FO--hP-5" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Computer modern;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fvsalvino%2Fcomputer-modern%40main%2Ffonts%2Ftypewriter.css;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="238.28" as="sourcePoint" />
+            <mxPoint x="670" y="238.28" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="33DunCwNwJLF14FO--hP-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Computer modern;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fvsalvino%2Fcomputer-modern%40main%2Ffonts%2Ftypewriter.css;" edge="1" parent="1" source="33DunCwNwJLF14FO--hP-6" target="33DunCwNwJLF14FO--hP-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="33DunCwNwJLF14FO--hP-6" value="&lt;div&gt;Recieving&lt;/div&gt;&lt;div&gt;RF-module&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Computer modern;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fvsalvino%2Fcomputer-modern%40main%2Ffonts%2Ftypewriter.css;" vertex="1" parent="1">
+          <mxGeometry x="400" y="178.52" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="33DunCwNwJLF14FO--hP-8" value="&lt;div&gt;Transmitting&lt;/div&gt;&lt;div&gt;RF-module&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Computer modern;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fvsalvino%2Fcomputer-modern%40main%2Ffonts%2Ftypewriter.css;" vertex="1" parent="1">
+          <mxGeometry x="160" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="33DunCwNwJLF14FO--hP-10" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontFamily=Computer modern;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fvsalvino%2Fcomputer-modern%40main%2Ffonts%2Ftypewriter.css;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="278.52" as="sourcePoint" />
+            <mxPoint x="380" y="158.52" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="33DunCwNwJLF14FO--hP-11" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontFamily=Computer modern;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fvsalvino%2Fcomputer-modern%40main%2Ffonts%2Ftypewriter.css;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="278.52" as="sourcePoint" />
+            <mxPoint x="680" y="278.52" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="33DunCwNwJLF14FO--hP-12" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontFamily=Computer modern;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fvsalvino%2Fcomputer-modern%40main%2Ffonts%2Ftypewriter.css;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="158.52" as="sourcePoint" />
+            <mxPoint x="680" y="158.52" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="33DunCwNwJLF14FO--hP-13" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.radio.aerial_-_antenna_1;fontFamily=Computer modern;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fvsalvino%2Fcomputer-modern%40main%2Ffonts%2Ftypewriter.css;" vertex="1" parent="1">
+          <mxGeometry x="250" y="160" width="40" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="33DunCwNwJLF14FO--hP-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;fontFamily=Computer modern;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fvsalvino%2Fcomputer-modern%40main%2Ffonts%2Ftypewriter.css;" edge="1" parent="1" source="33DunCwNwJLF14FO--hP-8" target="33DunCwNwJLF14FO--hP-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="33DunCwNwJLF14FO--hP-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Computer modern;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fvsalvino%2Fcomputer-modern%40main%2Ffonts%2Ftypewriter.css;" edge="1" parent="1" source="33DunCwNwJLF14FO--hP-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="218.52" as="sourcePoint" />
+            <mxPoint x="400" y="217.52" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="218.52" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="33DunCwNwJLF14FO--hP-16" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.radio.aerial_-_antenna_1;fontFamily=Computer modern;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fvsalvino%2Fcomputer-modern%40main%2Ffonts%2Ftypewriter.css;" vertex="1" parent="1">
+          <mxGeometry x="320" y="158.52" width="40" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="33DunCwNwJLF14FO--hP-19" value="$$\mu C$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Computer modern;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fvsalvino%2Fcomputer-modern%40main%2Ffonts%2Ftypewriter.css;" vertex="1" parent="1">
+          <mxGeometry x="50" y="205" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="33DunCwNwJLF14FO--hP-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Computer modern;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fvsalvino%2Fcomputer-modern%40main%2Ffonts%2Ftypewriter.css;" edge="1" parent="1" source="33DunCwNwJLF14FO--hP-2" target="33DunCwNwJLF14FO--hP-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="319.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="33DunCwNwJLF14FO--hP-24" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Driver &amp;amp; Transducer&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Computer modern;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fvsalvino%2Fcomputer-modern%40main%2Ffonts%2Ftypewriter.css;" vertex="1" parent="1">
+          <mxGeometry x="160" y="279" width="80" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="33DunCwNwJLF14FO--hP-26" value="Start signal" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Computer modern;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fvsalvino%2Fcomputer-modern%40main%2Ffonts%2Ftypewriter.css;" vertex="1" parent="1">
+          <mxGeometry x="600" y="200" width="70" height="38.52" as="geometry" />
+        </mxCell>
+        <mxCell id="33DunCwNwJLF14FO--hP-33" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Computer modern;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fvsalvino%2Fcomputer-modern%40main%2Ffonts%2Ftypewriter.css;endArrow=diamondThin;endFill=0;" edge="1" parent="1" source="33DunCwNwJLF14FO--hP-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="320" as="targetPoint" />
+            <mxPoint x="270" y="400" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="430" y="380" />
+              <mxPoint x="110" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="33DunCwNwJLF14FO--hP-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Computer modern;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fvsalvino%2Fcomputer-modern%40main%2Ffonts%2Ftypewriter.css;endArrow=diamondThin;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="33DunCwNwJLF14FO--hP-38" target="33DunCwNwJLF14FO--hP-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="380" />
+              <mxPoint x="635" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="33DunCwNwJLF14FO--hP-27" value="&lt;div&gt;Oscilloscope&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Computer modern;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fvsalvino%2Fcomputer-modern%40main%2Ffonts%2Ftypewriter.css;" vertex="1" parent="1">
+          <mxGeometry x="400" y="320" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="33DunCwNwJLF14FO--hP-28" value="" style="group;fontFamily=Computer modern;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fvsalvino%2Fcomputer-modern%40main%2Ffonts%2Ftypewriter.css;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="180.005" y="290" width="37.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="33DunCwNwJLF14FO--hP-29" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Computer modern;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fvsalvino%2Fcomputer-modern%40main%2Ffonts%2Ftypewriter.css;" edge="1" parent="33DunCwNwJLF14FO--hP-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="7.39500000000001" as="sourcePoint" />
+            <mxPoint x="15" y="7.39500000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="33DunCwNwJLF14FO--hP-30" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Computer modern;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fvsalvino%2Fcomputer-modern%40main%2Ffonts%2Ftypewriter.css;" edge="1" parent="33DunCwNwJLF14FO--hP-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="22.39500000000001" as="sourcePoint" />
+            <mxPoint x="15" y="22.39500000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="33DunCwNwJLF14FO--hP-31" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=4.724137931034591;rotation=90;fontFamily=Computer modern;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fvsalvino%2Fcomputer-modern%40main%2Ffonts%2Ftypewriter.css;" vertex="1" parent="33DunCwNwJLF14FO--hP-28">
+          <mxGeometry x="3.75" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="33DunCwNwJLF14FO--hP-36" value="FPGA" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Computer modern;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fvsalvino%2Fcomputer-modern%40main%2Ffonts%2Ftypewriter.css;" vertex="1" parent="1">
+          <mxGeometry x="670" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="33DunCwNwJLF14FO--hP-37" value="CH1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Computer modern;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fvsalvino%2Fcomputer-modern%40main%2Ffonts%2Ftypewriter.css;" vertex="1" parent="1">
+          <mxGeometry x="410" y="340" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="33DunCwNwJLF14FO--hP-38" value="CH2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Computer modern;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fvsalvino%2Fcomputer-modern%40main%2Ffonts%2Ftypewriter.css;" vertex="1" parent="1">
+          <mxGeometry x="470" y="340" width="40" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="BERaqODM1mQ7kb_GUH7p" name="Page-3">
+    <mxGraphModel dx="1866" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ze43Xxg727eAkE6dp7h--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;" edge="1" parent="1" source="Ze43Xxg727eAkE6dp7h--2" target="Ze43Xxg727eAkE6dp7h--7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--2" value="&lt;div&gt;Satellite&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;" vertex="1" parent="1">
+          <mxGeometry y="185" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--3" value="&lt;div&gt;Atmega328p&lt;/div&gt;&lt;div&gt;Co-processor&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;" vertex="1" parent="1">
+          <mxGeometry x="510" y="178.52" width="90" height="131.48" as="geometry" />
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--4" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="238.28" as="sourcePoint" />
+            <mxPoint x="670" y="238.28" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;entryX=0;entryY=0.315;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.518;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Ze43Xxg727eAkE6dp7h--6" target="Ze43Xxg727eAkE6dp7h--3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--6" value="&lt;div&gt;Recieving&lt;/div&gt;&lt;div&gt;RF-module&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;" vertex="1" parent="1">
+          <mxGeometry x="400" y="178.52" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--7" value="&lt;div&gt;Transmitting&lt;/div&gt;&lt;div&gt;RF-module&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="185" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--8" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="380" as="sourcePoint" />
+            <mxPoint x="380" y="158.52" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--9" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="380" as="sourcePoint" />
+            <mxPoint x="760" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--10" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="158.52" as="sourcePoint" />
+            <mxPoint x="760" y="159" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--11" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.radio.aerial_-_antenna_1;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;" vertex="1" parent="1">
+          <mxGeometry x="250" y="160" width="40" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;" edge="1" parent="1" source="Ze43Xxg727eAkE6dp7h--7" target="Ze43Xxg727eAkE6dp7h--11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;" edge="1" parent="1" source="Ze43Xxg727eAkE6dp7h--14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="218.52" as="sourcePoint" />
+            <mxPoint x="400" y="217.52" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="218.52" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--14" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.radio.aerial_-_antenna_1;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="158.52" width="40" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--15" value="$$\mu C$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;" vertex="1" parent="1">
+          <mxGeometry x="10" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;" edge="1" parent="1" source="Ze43Xxg727eAkE6dp7h--2" target="Ze43Xxg727eAkE6dp7h--17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="324.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--17" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Driver &amp;amp; Transducer&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="284" width="80" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--18" value="Start signal" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;" vertex="1" parent="1">
+          <mxGeometry x="600" y="200" width="70" height="38.52" as="geometry" />
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--22" value="" style="group;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="140.005" y="295" width="37.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--23" value="" style="endArrow=none;html=1;rounded=0;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;" edge="1" parent="Ze43Xxg727eAkE6dp7h--22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="7.39500000000001" as="sourcePoint" />
+            <mxPoint x="15" y="7.39500000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--24" value="" style="endArrow=none;html=1;rounded=0;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;" edge="1" parent="Ze43Xxg727eAkE6dp7h--22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="22.39500000000001" as="sourcePoint" />
+            <mxPoint x="15" y="22.39500000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--25" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=4.724137931034591;rotation=90;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;" vertex="1" parent="Ze43Xxg727eAkE6dp7h--22">
+          <mxGeometry x="3.75" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--26" value="FPGA" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;" vertex="1" parent="1">
+          <mxGeometry x="670" y="180" width="80" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--29" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Driver &amp;amp; Transducer&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;" vertex="1" parent="1">
+          <mxGeometry x="400" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--30" value="" style="group;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;rotation=-180;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="419.995" y="290" width="37.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--31" value="" style="endArrow=none;html=1;rounded=0;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;" edge="1" parent="Ze43Xxg727eAkE6dp7h--30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="38" y="23" as="sourcePoint" />
+            <mxPoint x="23" y="23" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--32" value="" style="endArrow=none;html=1;rounded=0;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;" edge="1" parent="Ze43Xxg727eAkE6dp7h--30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="38" y="8" as="sourcePoint" />
+            <mxPoint x="23" y="8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--33" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=4.724137931034591;rotation=-90;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;" vertex="1" parent="Ze43Xxg727eAkE6dp7h--30">
+          <mxGeometry x="4" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ze43Xxg727eAkE6dp7h--29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="229" as="sourcePoint" />
+            <mxPoint x="670" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--36" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;exitX=0;exitY=0.474;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.696;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ze43Xxg727eAkE6dp7h--26" target="Ze43Xxg727eAkE6dp7h--3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="248.28" as="sourcePoint" />
+            <mxPoint x="680" y="248.28" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--37" value="ToF reading" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;" vertex="1" parent="1">
+          <mxGeometry x="600" y="270" width="70" height="28.52" as="geometry" />
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--38" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;" edge="1" parent="1" target="Ze43Xxg727eAkE6dp7h--39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="178.51999999999998" as="sourcePoint" />
+            <mxPoint x="560" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="139" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--39" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Recorded values&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;" vertex="1" parent="1">
+          <mxGeometry x="670" y="120" width="80" height="38.52" as="geometry" />
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--40" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-20" y="380" as="sourcePoint" />
+            <mxPoint x="220" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--41" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-12.490000000000002" y="158.52" as="sourcePoint" />
+            <mxPoint x="217.51" y="158.52" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--42" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="380" as="sourcePoint" />
+            <mxPoint x="220" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--43" value="" style="endArrow=baseDash;html=1;rounded=0;endFill=0;startArrow=baseDash;startFill=0;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="330" as="sourcePoint" />
+            <mxPoint x="390" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--44" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Known distance&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;" vertex="1" parent="1">
+          <mxGeometry x="250" y="290" width="110" height="39.26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--46" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Satellite&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="140" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ze43Xxg727eAkE6dp7h--47" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Target&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=computer modern;fontSource=https%3A%2F%2Fwww.1001fonts.com%2Fdownload%2Ffont%2Fcmu.classical-serif-italic.ttf;" vertex="1" parent="1">
+          <mxGeometry x="380" y="137.04" width="100" height="21.48" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

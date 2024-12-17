@@ -1,0 +1,53 @@
+<mxfile host="Electron" modified="2024-11-12T08:02:33.802Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="fXky8fgPZ3iwZHK2sgG6" version="21.1.2" type="device">
+  <diagram name="Side-1" id="tLMEfP2CB3SQrB6IbMrK">
+    <mxGraphModel dx="1182" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wmiJ7FHdRQBtYZNkb7RU-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="350" width="220" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="wmiJ7FHdRQBtYZNkb7RU-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wmiJ7FHdRQBtYZNkb7RU-2" target="wmiJ7FHdRQBtYZNkb7RU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wmiJ7FHdRQBtYZNkb7RU-2" value="ADC" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="600" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wmiJ7FHdRQBtYZNkb7RU-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wmiJ7FHdRQBtYZNkb7RU-3" target="wmiJ7FHdRQBtYZNkb7RU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wmiJ7FHdRQBtYZNkb7RU-13" value="Start time" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wmiJ7FHdRQBtYZNkb7RU-12">
+          <mxGeometry x="-0.4313" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wmiJ7FHdRQBtYZNkb7RU-3" value="Radio interface" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="440" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wmiJ7FHdRQBtYZNkb7RU-4" value="Time Calculation" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="600" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wmiJ7FHdRQBtYZNkb7RU-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wmiJ7FHdRQBtYZNkb7RU-7" target="wmiJ7FHdRQBtYZNkb7RU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wmiJ7FHdRQBtYZNkb7RU-14" value="Reference" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wmiJ7FHdRQBtYZNkb7RU-11">
+          <mxGeometry x="-0.2351" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wmiJ7FHdRQBtYZNkb7RU-7" value="Sinus Sample" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="540" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wmiJ7FHdRQBtYZNkb7RU-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wmiJ7FHdRQBtYZNkb7RU-15" target="wmiJ7FHdRQBtYZNkb7RU-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wmiJ7FHdRQBtYZNkb7RU-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="600" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wmiJ7FHdRQBtYZNkb7RU-16" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;FPGA&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="850" y="355" width="80" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

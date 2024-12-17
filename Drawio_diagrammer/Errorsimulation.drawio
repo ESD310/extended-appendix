@@ -1,0 +1,144 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.8.9" pages="2">
+  <diagram name="Message signal" id="sRO48vc3majk-Ef4jQSA">
+    <mxGraphModel dx="1114" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CjJU8cgcZwolnJxbs9lt-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CjJU8cgcZwolnJxbs9lt-1" target="CjJU8cgcZwolnJxbs9lt-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CjJU8cgcZwolnJxbs9lt-1" value="Recorded sample" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Computer modern;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fvsalvino%2Fcomputer-modern%40main%2Ffonts%2Ftypewriter.css;" parent="1" vertex="1">
+          <mxGeometry x="80" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CjJU8cgcZwolnJxbs9lt-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CjJU8cgcZwolnJxbs9lt-2" target="CjJU8cgcZwolnJxbs9lt-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CjJU8cgcZwolnJxbs9lt-2" value="&lt;div&gt;&lt;font data-font-src=&quot;https://cdn.jsdelivr.net/gh/vsalvino/computer-modern@main/fonts/typewriter.css&quot; face=&quot;Computer modern&quot;&gt;Concatinating&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font data-font-src=&quot;https://cdn.jsdelivr.net/gh/vsalvino/computer-modern@main/fonts/typewriter.css&quot; face=&quot;Computer modern&quot;&gt;with TOF-delay&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CjJU8cgcZwolnJxbs9lt-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CjJU8cgcZwolnJxbs9lt-4" target="CjJU8cgcZwolnJxbs9lt-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CjJU8cgcZwolnJxbs9lt-4" value="&lt;div&gt;Uniformly distributed noise&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Computer modern;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fvsalvino%2Fcomputer-modern%40main%2Ffonts%2Ftypewriter.css;" parent="1" vertex="1">
+          <mxGeometry x="110" y="240" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CjJU8cgcZwolnJxbs9lt-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CjJU8cgcZwolnJxbs9lt-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CjJU8cgcZwolnJxbs9lt-5" value="&lt;div&gt;Bandpass&lt;/div&gt;&lt;div&gt;20-80KHz&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Computer modern;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fvsalvino%2Fcomputer-modern%40main%2Ffonts%2Ftypewriter.css;" parent="1" vertex="1">
+          <mxGeometry x="240" y="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CjJU8cgcZwolnJxbs9lt-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CjJU8cgcZwolnJxbs9lt-7" target="CjJU8cgcZwolnJxbs9lt-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CjJU8cgcZwolnJxbs9lt-7" value="&lt;div&gt;Normalize&lt;/div&gt;&lt;div&gt;according to SNR&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Computer modern;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fvsalvino%2Fcomputer-modern%40main%2Ffonts%2Ftypewriter.css;" parent="1" vertex="1">
+          <mxGeometry x="360" y="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CjJU8cgcZwolnJxbs9lt-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="CjJU8cgcZwolnJxbs9lt-9" target="CjJU8cgcZwolnJxbs9lt-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CjJU8cgcZwolnJxbs9lt-9" value="&lt;font data-font-src=&quot;https://cdn.jsdelivr.net/gh/vsalvino/computer-modern@main/fonts/typewriter.css&quot; face=&quot;Computer modern&quot;&gt;Expected sample&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CjJU8cgcZwolnJxbs9lt-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CjJU8cgcZwolnJxbs9lt-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CjJU8cgcZwolnJxbs9lt-10" value="&lt;svg xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; viewBox=&quot;0 -950 1444 1400&quot; role=&quot;img&quot; height=&quot;3.167ex&quot; width=&quot;3.267ex&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; style=&quot;vertical-align: -1.018ex;&quot;&gt;&lt;defs&gt;&lt;path d=&quot;M60 948Q63 950 665 950H1267L1325 815Q1384 677 1388 669H1348L1341 683Q1320 724 1285 761Q1235 809 1174 838T1033 881T882 898T699 902H574H543H251L259 891Q722 258 724 252Q725 250 724 246Q721 243 460 -56L196 -356Q196 -357 407 -357Q459 -357 548 -357T676 -358Q812 -358 896 -353T1063 -332T1204 -283T1307 -196Q1328 -170 1348 -124H1388Q1388 -125 1381 -145T1356 -210T1325 -294L1267 -449L666 -450Q64 -450 61 -448Q55 -446 55 -439Q55 -437 57 -433L590 177Q590 178 557 222T452 366T322 544L56 909L55 924Q55 945 60 948Z&quot; id=&quot;MJX-1-TEX-LO-2211&quot;&gt;&lt;/path&gt;&lt;/defs&gt;&lt;g transform=&quot;scale(1,-1)&quot; stroke-width=&quot;0&quot; fill=&quot;currentColor&quot; stroke=&quot;currentColor&quot;&gt;&lt;g data-mml-node=&quot;math&quot;&gt;&lt;g data-mml-node=&quot;mo&quot;&gt;&lt;use xlink:href=&quot;#MJX-1-TEX-LO-2211&quot; data-c=&quot;2211&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="375" y="155" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CjJU8cgcZwolnJxbs9lt-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CjJU8cgcZwolnJxbs9lt-13" target="CjJU8cgcZwolnJxbs9lt-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CjJU8cgcZwolnJxbs9lt-13" value="&lt;font data-font-src=&quot;https://cdn.jsdelivr.net/gh/vsalvino/computer-modern@main/fonts/typewriter.css&quot; face=&quot;Computer modern&quot;&gt;Cross correlation&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CjJU8cgcZwolnJxbs9lt-15" value="&lt;div&gt;&lt;font data-font-src=&quot;https://cdn.jsdelivr.net/gh/vsalvino/computer-modern@main/fonts/typewriter.css&quot; face=&quot;Computer modern&quot;&gt;TOF&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font data-font-src=&quot;https://cdn.jsdelivr.net/gh/vsalvino/computer-modern@main/fonts/typewriter.css&quot; face=&quot;Computer modern&quot;&gt;test signal&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="440" y="140" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CjJU8cgcZwolnJxbs9lt-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CjJU8cgcZwolnJxbs9lt-18" target="CjJU8cgcZwolnJxbs9lt-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CjJU8cgcZwolnJxbs9lt-18" value="&lt;font data-font-src=&quot;https://cdn.jsdelivr.net/gh/vsalvino/computer-modern@main/fonts/typewriter.css&quot; face=&quot;Computer modern&quot;&gt;Rectification &amp;amp;&lt;/font&gt;&lt;div&gt;&lt;font data-font-src=&quot;https://cdn.jsdelivr.net/gh/vsalvino/computer-modern@main/fonts/typewriter.css&quot; face=&quot;Computer modern&quot;&gt;Envelope filter&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CjJU8cgcZwolnJxbs9lt-22" value="&lt;font data-font-src=&quot;https://cdn.jsdelivr.net/gh/vsalvino/computer-modern@main/fonts/typewriter.css&quot;&gt;Cross-correlation result&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Computer modern;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fvsalvino%2Fcomputer-modern%40main%2Ffonts%2Ftypewriter.css;" parent="1" vertex="1">
+          <mxGeometry x="750" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Zj_Ov1gLIcRTAUoUKXC5" name="Modulated signal">
+    <mxGraphModel dx="1114" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-_D8kECuTYOwB3xzPqZC-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-_D8kECuTYOwB3xzPqZC-2" target="-_D8kECuTYOwB3xzPqZC-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-_D8kECuTYOwB3xzPqZC-2" value="Recorded sample" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Computer modern;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fvsalvino%2Fcomputer-modern%40main%2Ffonts%2Ftypewriter.css;" parent="1" vertex="1">
+          <mxGeometry x="80" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-_D8kECuTYOwB3xzPqZC-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-_D8kECuTYOwB3xzPqZC-4" target="-_D8kECuTYOwB3xzPqZC-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-_D8kECuTYOwB3xzPqZC-4" value="&lt;div&gt;&lt;font data-font-src=&quot;https://cdn.jsdelivr.net/gh/vsalvino/computer-modern@main/fonts/typewriter.css&quot; face=&quot;Computer modern&quot;&gt;Concatinating&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font data-font-src=&quot;https://cdn.jsdelivr.net/gh/vsalvino/computer-modern@main/fonts/typewriter.css&quot; face=&quot;Computer modern&quot;&gt;with TOF-delay&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-_D8kECuTYOwB3xzPqZC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-_D8kECuTYOwB3xzPqZC-6" target="-_D8kECuTYOwB3xzPqZC-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-_D8kECuTYOwB3xzPqZC-6" value="&lt;div&gt;Uniformly distributed noise&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Computer modern;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fvsalvino%2Fcomputer-modern%40main%2Ffonts%2Ftypewriter.css;" parent="1" vertex="1">
+          <mxGeometry x="110" y="240" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-_D8kECuTYOwB3xzPqZC-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-_D8kECuTYOwB3xzPqZC-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-_D8kECuTYOwB3xzPqZC-8" value="&lt;div&gt;Bandpass&lt;/div&gt;&lt;div&gt;20-80KHz&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Computer modern;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fvsalvino%2Fcomputer-modern%40main%2Ffonts%2Ftypewriter.css;" parent="1" vertex="1">
+          <mxGeometry x="240" y="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-_D8kECuTYOwB3xzPqZC-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-_D8kECuTYOwB3xzPqZC-10" target="-_D8kECuTYOwB3xzPqZC-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-_D8kECuTYOwB3xzPqZC-10" value="&lt;div&gt;Normalize&lt;/div&gt;&lt;div&gt;according to SNR&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Computer modern;fontSource=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fvsalvino%2Fcomputer-modern%40main%2Ffonts%2Ftypewriter.css;" parent="1" vertex="1">
+          <mxGeometry x="360" y="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-_D8kECuTYOwB3xzPqZC-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="-_D8kECuTYOwB3xzPqZC-12" target="-_D8kECuTYOwB3xzPqZC-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-_D8kECuTYOwB3xzPqZC-12" value="&lt;font data-font-src=&quot;https://cdn.jsdelivr.net/gh/vsalvino/computer-modern@main/fonts/typewriter.css&quot; face=&quot;Computer modern&quot;&gt;Expected sample&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-_D8kECuTYOwB3xzPqZC-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-_D8kECuTYOwB3xzPqZC-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-_D8kECuTYOwB3xzPqZC-14" value="&lt;svg xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; viewBox=&quot;0 -950 1444 1400&quot; role=&quot;img&quot; height=&quot;3.167ex&quot; width=&quot;3.267ex&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; style=&quot;vertical-align: -1.018ex;&quot;&gt;&lt;defs&gt;&lt;path d=&quot;M60 948Q63 950 665 950H1267L1325 815Q1384 677 1388 669H1348L1341 683Q1320 724 1285 761Q1235 809 1174 838T1033 881T882 898T699 902H574H543H251L259 891Q722 258 724 252Q725 250 724 246Q721 243 460 -56L196 -356Q196 -357 407 -357Q459 -357 548 -357T676 -358Q812 -358 896 -353T1063 -332T1204 -283T1307 -196Q1328 -170 1348 -124H1388Q1388 -125 1381 -145T1356 -210T1325 -294L1267 -449L666 -450Q64 -450 61 -448Q55 -446 55 -439Q55 -437 57 -433L590 177Q590 178 557 222T452 366T322 544L56 909L55 924Q55 945 60 948Z&quot; id=&quot;MJX-1-TEX-LO-2211&quot;&gt;&lt;/path&gt;&lt;/defs&gt;&lt;g transform=&quot;scale(1,-1)&quot; stroke-width=&quot;0&quot; fill=&quot;currentColor&quot; stroke=&quot;currentColor&quot;&gt;&lt;g data-mml-node=&quot;math&quot;&gt;&lt;g data-mml-node=&quot;mo&quot;&gt;&lt;use xlink:href=&quot;#MJX-1-TEX-LO-2211&quot; data-c=&quot;2211&quot;&gt;&lt;/use&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="375" y="155" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-_D8kECuTYOwB3xzPqZC-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-_D8kECuTYOwB3xzPqZC-16" target="-_D8kECuTYOwB3xzPqZC-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-_D8kECuTYOwB3xzPqZC-16" value="&lt;font data-font-src=&quot;https://cdn.jsdelivr.net/gh/vsalvino/computer-modern@main/fonts/typewriter.css&quot; face=&quot;Computer modern&quot;&gt;Cross correlation&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-_D8kECuTYOwB3xzPqZC-17" value="&lt;div&gt;&lt;font data-font-src=&quot;https://cdn.jsdelivr.net/gh/vsalvino/computer-modern@main/fonts/typewriter.css&quot; face=&quot;Computer modern&quot;&gt;TOF&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font data-font-src=&quot;https://cdn.jsdelivr.net/gh/vsalvino/computer-modern@main/fonts/typewriter.css&quot; face=&quot;Computer modern&quot;&gt;test signal&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="440" y="140" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-_D8kECuTYOwB3xzPqZC-20" value="&lt;font data-font-src=&quot;https://cdn.jsdelivr.net/gh/vsalvino/computer-modern@main/fonts/typewriter.css&quot; face=&quot;Computer modern&quot;&gt;Cross-correlation result&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="630" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
