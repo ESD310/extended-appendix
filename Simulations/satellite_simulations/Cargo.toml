@@ -1,0 +1,11 @@
+[package]
+name = "satellite_simulations"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+vecmath = "1.0.0"
+iter_num_tools = "0.7.1"
+indicatif = "0.17.8"
+csv = "1.3.0"
+rayon = "1.10.0"
