@@ -3,7 +3,7 @@
 
 - Vivado
     - Vivado project
-    - Source
+    - SubModules
 - Embedded firmware
     - Satellite firmware
     - Target firmware

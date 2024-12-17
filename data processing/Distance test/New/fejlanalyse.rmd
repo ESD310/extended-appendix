@@ -1,0 +1,99 @@
+---
+title Fejlanalyse
+author Maltheren
+date 2024-11-25
+output html_document
+---
+
+```{r setup, include=FALSE}
+require(ggformula)
+library(mosaic)
+
+```
+
+## En hurtig kigger på hvad vi kan se med vores data
+
+```{r}
+distancetest = read.csv("distance_data.csv",header = TRUE)
+```
+
+Alle målingerne med de dårlige og det hele er blevet loadet som 2 kolonner i en csv fil som ser sådan her ud.
+
+```{r, echo=FALSE}
+gf_point(TOF ~ Distance, data=distancetest)
+```
+
+
+Det ligner bare lidt lort tho :((.
+
+Men ved at lave et boksplot over fordelingen ved en given afstand: 
+```{r, echo=FALSE}
+  boxplot(distancetest$TOF[distancetest$Distance==400])
+```
+
+
+Her kan det lige ses at det meste af boksplottet ligger ok, men bare lige de hårde outliers der. Så vi smider et filter på som tager et boksplottet og sorterer alt fra, fra de øvre der fandt jeg nogen der brugte IQR. vi tager alt der ligger 30 gange det og fjerner dem, Man siger 1.5 IQR svarer til 95% af sættet.
+```{r}
+filter_outliers <- function(data){
+  qnt <- quantile(data, probs=c(.25, .75), na.rm = T)
+  iqr <- IQR(data)
+  lower <- qnt[1] - 15*iqr
+  upper <- qnt[2] + 15*iqr
+  data <- data[data > lower & data < upper]
+  return(data)
+}
+```
+
+Så kan alle målte længder fås ved at køre den her
+```{r}
+distances = unique(distancetest$Distance)
+print(sort(distances))
+```
+Så kører vi filteret på alle de her afstande  datasættet  
+```{r, results='hide', message=FALSE, warning=FALSE}
+for (distance in distances){
+  values_read = distancetest$TOF[distancetest$Distance==distance]; ##Læser alle værdier ved en afstand
+  distancetest$TOF[distancetest$Distance==distance] = filter_outliers(values_read); ##Sætter alle værdier til den afstand som det. Det lidt magi men det virker :/.
+}
+```
+
+
+Det giver os det her :)))
+```{r, warning=FALSE}
+gf_point(TOF ~ Distance, data=distancetest) %>%
+  gf_lm()
+
+```
+
+
+Det kan lige laves en model på
+```{r}
+model1 <- lm(TOF~Distance, data=distancetest)
+summary(model1)
+```
+
+
+Så vi kan trække `r model1$coefficients[0]` fra og så har vi kalibreret det wuhuu. Derudover kan vi trække det som vi mener lydens hastighed skal rejse med fra og se om at TOF værdien faktisk stiger med lydens hastighed
+
+```{r}
+v_sound = 0.01/343 * 10^6; ## Så det er så langt lyden tager om at nå 1 cm og så konverteret til us.
+
+
+model1 <- lm(TOF~Distance+ offset(v_sound * Distance), data=distancetest)
+summary(model1)
+```
+
+
+Og der kan vi se konfidensintervallet er inden for 0 altså for hældningen og derfor så måler vi med alt sansylighed en ændring i afstand ift lyden hastighed.
+
+
+
+Ellers er det spændednde nok at vi kan lave et histogram over residualerne og på den måde få hvor maksimale præcision vi ikke kan kalibrere os ud af.
+
+```{r}
+histogram(model1$residuals, breaks=40, xlab="Residuals")
+favstats(model1$residuals)
+```
+
+
+
