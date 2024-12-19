@@ -6,7 +6,7 @@
     - SubModules
 - Embedded firmware
     - Satellite firmware
-    - Target firmware
+    - Target external MCU firmware
 - Data processing
     - Sationary tests
     - Movement tests
