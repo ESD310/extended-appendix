@@ -6,14 +6,14 @@
 #define POSUPDATE 7
 #define IDPIN0 6
 #define IDPIN1 5
-
+#define debubPin  A1
 
 
 #define CS_PIN 9 // Set the Chip Select pin
 #define CIPO PB4 
 #define SCK PB5 
 
-
+int lastID;
 
 
 void readXYZData(uint32_t *x, uint32_t *y, uint32_t *z, uint32_t *tof) {
@@ -93,6 +93,7 @@ void setup() {
   pinMode(IDPIN0, OUTPUT);
   pinMode(IDPIN1, OUTPUT);
   pinMode(POSUPDATE, INPUT);
+  pinMode(debubPin, OUTPUT);
   // Set up SPI
   SPI.begin(); // Initializes the SPI bus
   
@@ -107,7 +108,7 @@ void setup() {
 }
 int cycles = 0;
 void loop() {
-  if (count < 65){
+
     uint32_t x, y, z, tof;
 
 
@@ -115,10 +116,11 @@ void loop() {
   
 
   if(Jydesnak_serde.package_ready()){
-    digitalWrite(RDYPIN, HIGH);  
+    digitalWrite(STARTPIN, HIGH);  
     //tjekker om der kommet en besked i bufferen
     radio_Package* output = Jydesnak_serde.read_package(); //Får pointer til bufferen
     //output->debug_info(); //en sød lige debug funktion der skriver hvad structet indeholder
+    lastID = output->ID; 
     switch (output->ID)
     {
       case 0:
@@ -138,9 +140,11 @@ void loop() {
         break;
       }
       delayMicroseconds(2);
-      digitalWrite(RDYPIN, LOW);
-          
-      readXYZData(&x, &y, &z,&tof);
+      digitalWrite(STARTPIN, LOW);
+  }
+
+if (digitalRead(POSUPDATE) == HIGH) {
+        readXYZData(&x, &y, &z,&tof);
       // Convert readings to meters 
       float x_m = tues_compliment(x) / 100000.0;
       float y_m = tues_compliment(y) / 100000.0;
@@ -157,15 +161,17 @@ void loop() {
       Serial.print(x_m, 4); Serial.print(",");
       Serial.print(y_m, 4); Serial.print(",");
       Serial.print(z_m, 4); Serial.print(",");
-      Serial.print(output->ID); Serial.print(",");
+      Serial.print(lastID); Serial.print(",");
       Serial.print(tof); Serial.print(",");
       Serial.print(millis()); Serial.println();
+      if (tof >= 2000) {
+        digitalWrite(debubPin, HIGH);
+      }
+      digitalWrite(debubPin, LOW);
       if(cycles > 10000){
         while(true){};
       }
       cycles ++;
-  }
-
-
+}
 
 }
